@@ -13,9 +13,11 @@ Graphics by Rob Takken.
 
 
 * the old menu system
+
 ![menu screen](https://raw.githubusercontent.com/peter3125/wgck/master/data/wgckscreenshot1.jpg)
 
 
 * a nice view from a bi-plane
+
 ![menu screen](https://raw.githubusercontent.com/peter3125/wgck/master/data/wgckscreenshot2.jpg)
 
