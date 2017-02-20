@@ -1,0 +1,4 @@
+createanim data\exhaust.anm data\binfiles\d%d.bin data\textures 30
+createanim data\explosion.anm data\binfiles\ex%d.bin data\textures 21
+createanim data\sherman.anm data\binfiles\s%d.bin data\textures 23
+createanim data\tiger.anm data\binfiles\t%d.bin data\textures 23

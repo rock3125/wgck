@@ -1,0 +1,7 @@
+convert2 data\xfiles\tiger_40.x data\textures data\binfiles
+convert2 data\xfiles\stiger_40.x data\textures data\binfiles
+convert2 data\xfiles\rtiger_40.x data\textures data\binfiles
+transformbin data\binfiles\tiger_40.bin data\textures t=0,0,0 r=-90,90,0 s=1,1,1
+transformbin data\binfiles\stiger_40.bin data\textures t=0,0,0 r=-90,90,0 s=1,1,1
+transformbin data\binfiles\rtiger_40.bin data\textures t=0,0,0 r=-90,90,0 s=1,1,1
+createnobj data\tiger.obj data\textures data\binfiles\ttiger_40.bin data\binfiles\tstiger_40.bin data\binfiles\trtiger_40.bin

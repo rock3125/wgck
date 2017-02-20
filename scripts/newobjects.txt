@@ -1,0 +1,6 @@
+convert2 data\xfiles\gun1.x data\textures data\binfiles
+convert2 data\xfiles\gun2.x data\textures data\binfiles
+transformbin data\binfiles\gun1.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+transformbin data\binfiles\gun2.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+createnobj data\gun1.obj data\textures data\binfiles\tgun1.bin
+createnobj data\gun2.obj data\textures data\binfiles\tgun2.bin

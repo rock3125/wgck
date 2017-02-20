@@ -1,0 +1,1 @@
+createanim data\test.anm data\anim\d%d.bin data\textures 3

@@ -1,0 +1,14 @@
+; export.def : declares the module parameters for the DLL.
+
+LIBRARY	     "dxsound"
+
+EXPORTS
+	InitDirectSound
+	FreeDirectSound
+	LoadWaveFile
+	IsBufferPlaying
+	PlayBuffer
+	StopBuffer
+	IsSoundPlaying
+
+

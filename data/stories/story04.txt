@@ -1,0 +1,3 @@
+title=On the Front
+screen=story4-1.jpg
+map=story04.def

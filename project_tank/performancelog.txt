@@ -1,0 +1,30 @@
+-- LOG --
+Performance Test v 1.0
+Please wait, initialising system...
+Enumerating pixel formats
+Selected pixel format 4
+setting up OpenGL
+Use cursor keys, A, Z, and the mouse to view
+Use ALT+C to show/hide console window
+ALT+Enter to switch full screen & back
+
+Loading objects
+object:
+        materials   : 1
+        meshes      : 1
+        object size : 1.73 MB
+        materials   : 1.27 KB
+
+setting up 3D Sound Systemloading demoData\sound.wavCommand line options:
+
+the following switches must follow the filename parameter
+-fullscreen       start in fullscreen mode
+-640x480          res switch
+-800x600          res switch
+-1024x768         res switch
+-1280x1024        res switch
+-15				 15 bit colour
+-16				 16 bit colour
+-24				 24 bit colour
+-32				 32 bit colour
+-log=logfile.txt  output info to logfile

@@ -1,0 +1,50 @@
+<tip>
+Did you know that War Games Inc. can use single
+player maps for multi-player games?
+<tip>
+War Games Inc. has different camera views, using
+the F1 through F7 keys selects these cameras.
+<tip>
+You can zoom the camera in/out using the mouse while
+holding down the CTRL key.
+<tip>
+F1 is a special camera view that enables the user to
+rotate around its character in 360 degrees by holding
+down the CTRL key and moving the mouse left or right.
+<tip>
+You can get on-line help in War Games Inc. from the
+Help menu.
+<tip>
+You can build your own scenarios using the World Builder
+(expansion pack 1 download)
+<tip>
+Holding down the SHIFT key in 3rd person view will show
+your weapon's projectile path.  You can move the mouse
+to adjust this path.
+<tip>
+You can adjust the amount of information displayed on
+screen if the game performs poorly on your Computer.
+This should improve your computers performance.
+<tip>
+You can join a multi-player game while it is in progress,
+provided there are available slots on the game map.
+<tip>
+Visit http://www.peter.co.nz to check for updates regularly,
+since we are constantly improving this program with all the
+feedback received from all of you.
+<tip>
+Planes have bombs, use the F7 camera to view the bombing
+targetting system.  Hold down the SHIFT key to view the
+target, move your mouse to adjust the target.
+<tip>
+This program is avaible in both German and English.
+Use the settings button from the main menu to change
+the interface's language.
+<tip>
+Interested in making and publishing your own scenarios
+for War Games Inc?  All registered users can submit
+maps to us, mail your maps to peter@peter.co.nz
+<tip>
+You can use dynamite to set-off some mean chain reactions.
+Just remember that dynamite has a 10 second fuse, make sure
+you're not anywhere near the explosions.

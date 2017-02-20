@@ -1,0 +1,249 @@
+convert2 data\xfiles\Missionaccomplished.x data\textures data\binfiles -centerx -centery -centerz -normalise -revw
+convert2 data\xfiles\Gameover.x data\textures data\binfiles -centerx -centery -centerz -normalise
+convert2 data\xfiles\3d_title.x data\textures data\binfiles -centerx -centery -centerz -normalise
+convert2 data\xfiles\missioncontrol.x data\textures data\binfiles -centerx -centery -centerz -normalise
+
+convert2 data\xfiles\mg42.x data\textures data\binfiles
+convert2 data\xfiles\bridge1.x data\textures data\binfiles
+//convert2 data\xfiles\bridge2.x data\textures data\binfiles -flipuv
+//convert2 data\xfiles\bridge3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\bank.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\church.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house4.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house5.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house6.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house7.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house8.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house9.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\kiosk.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rbank.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rchurch.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse4.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse5.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse6.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse7.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse8.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse9.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rkiosk.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\sbank.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\schurch.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse4.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse5.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse6.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse7.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse8.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse9.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\skiosk.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tree1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tree2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tree3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tree4.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\snowtree1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\snowtree2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\snowtree3.x data\textures data\binfiles -flipuv
+
+convert2 data\xfiles\tiger.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\hetzer2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\sherman.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\Churchil.x data\textures data\binfiles
+convert2 data\xfiles\me262.x data\textures data\binfiles
+convert2 data\xfiles\stuka.x data\textures data\binfiles
+convert2 data\xfiles\spitfire.x data\textures data\binfiles
+convert2 data\xfiles\triplane.x data\textures data\binfiles
+convert2 data\xfiles\biplane.x data\textures data\binfiles
+convert2 data\xfiles\p51.x data\textures data\binfiles
+
+convert2 data\xfiles\road1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\explosionflame.x data\textures data\binfiles
+convert2 data\xfiles\explosioncircle.x data\textures data\binfiles
+convert2 data\xfiles\greenflag.x data\textures data\binfiles
+convert2 data\xfiles\yellowflag.x data\textures data\binfiles
+convert2 data\xfiles\blackflag.x data\textures data\binfiles
+convert2 data\xfiles\redflag.x data\textures data\binfiles
+convert2 data\xfiles\blueflag.x data\textures data\binfiles
+convert2 data\xfiles\Bomb.x data\textures data\binfiles -centerx -centery -centerz -normalise
+convert2 data\xfiles\Shell.x data\textures data\binfiles -centerx -centery -centerz -normalise
+convert2 data\xfiles\Day.x data\textures data\binfiles -centerx -centery -centerz -normalise
+convert2 data\xfiles\night.x data\textures data\binfiles -centerx -centery -centerz -normalise
+convert2 data\xfiles\explosion.x data\textures data\binfiles -centerx -centery -centerz -normalise
+
+convert2 data\xfiles\lasergun.x data\textures data\binfiles
+convert2 data\xfiles\Magnum.x data\textures data\binfiles
+
+convert2 data\xfiles\bazooka.x data\textures data\binfiles -centerx -centery -centerz -normalise -scale=40
+transformbin data\binfiles\bazooka.bin data\textures t=0,0,0 r=180,0,0 s=1,1,1
+copy data\binfiles\tbazooka.bin data\bazooka.bin
+
+convert2 data\xfiles\explosives.x data\textures data\binfiles -centerx -centery -centerz -normalise -flipuv -scale=5
+transformbin data\binfiles\explosives.bin data\textures t=0,0,-5 r=90,0,0 s=1,1,1
+copy data\binfiles\texplosives.bin data\explosives.bin
+
+transformbin data\binfiles\3d_title.bin data\textures t=0,0,0 r=0,180,0 s=1,1,1
+
+convert2 data\xfiles\bags.x data\textures data\binfiles
+convert2 data\xfiles\barrack.x data\textures data\binfiles
+convert2 data\xfiles\bunker.x data\textures data\binfiles
+convert2 data\xfiles\flak1.x data\textures data\binfiles
+convert2 data\xfiles\flak2.x data\textures data\binfiles
+convert2 data\xfiles\gun1.x data\textures data\binfiles
+convert2 data\xfiles\gun2.x data\textures data\binfiles
+convert2 data\xfiles\hangar.x data\textures data\binfiles
+convert2 data\xfiles\para.x data\textures data -flipuv
+convert2 data\xfiles\r11.x data\textures data\binfiles
+convert2 data\xfiles\r12.x data\textures data\binfiles
+convert2 data\xfiles\r14.x data\textures data\binfiles
+convert2 data\xfiles\r18.x data\textures data\binfiles
+convert2 data\xfiles\r22.x data\textures data\binfiles
+convert2 data\xfiles\r24.x data\textures data\binfiles
+convert2 data\xfiles\r28.x data\textures data\binfiles
+convert2 data\xfiles\r44.x data\textures data\binfiles
+convert2 data\xfiles\r48.x data\textures data\binfiles
+convert2 data\xfiles\r88.x data\textures data\binfiles
+convert2 data\xfiles\shed.x data\textures data\binfiles
+convert2 data\xfiles\tower.x data\textures data\binfiles
+convert2 data\xfiles\wall1.x data\textures data\binfiles
+convert2 data\xfiles\wall2.x data\textures data\binfiles
+convert2 data\xfiles\wall3.x data\textures data\binfiles
+convert2 data\xfiles\wall4.x data\textures data\binfiles
+
+copy data\binfiles\Missionaccomplished.bin data\missionaccomplished.bin
+copy data\binfiles\Gameover.bin data\gameover.bin
+copy data\binfiles\t3d_title.bin data\3d_title.bin
+
+transformbin data\binfiles\bridge1.bin data\textures t=0,0,0 r=90,90,0 s=1,1,1
+
+createnobj data\bridge1.obj data\textures data\binfiles\bridge1.bin
+//createnobj data\bridge2.obj data\textures data\binfiles\bridge2.bin
+//createnobj data\bridge3.obj data\textures data\binfiles\bridge3.bin
+
+createnobj data\bank.obj data\textures data\binfiles\bank.bin data\binfiles\sbank.bin data\binfiles\rbank.bin
+createnobj data\church.obj data\textures data\binfiles\church.bin data\binfiles\schurch.bin data\binfiles\rchurch.bin
+createnobj data\house1.obj data\textures data\binfiles\house1.bin data\binfiles\shouse1.bin data\binfiles\rhouse1.bin
+createnobj data\house2.obj data\textures data\binfiles\house2.bin data\binfiles\shouse2.bin data\binfiles\rhouse2.bin
+createnobj data\house3.obj data\textures data\binfiles\house3.bin data\binfiles\shouse3.bin data\binfiles\rhouse3.bin
+createnobj data\house4.obj data\textures data\binfiles\house4.bin data\binfiles\shouse4.bin data\binfiles\rhouse4.bin
+createnobj data\house5.obj data\textures data\binfiles\house5.bin data\binfiles\shouse5.bin data\binfiles\rhouse5.bin
+createnobj data\house6.obj data\textures data\binfiles\house6.bin data\binfiles\shouse6.bin data\binfiles\rhouse6.bin
+createnobj data\house7.obj data\textures data\binfiles\house7.bin data\binfiles\shouse7.bin data\binfiles\rhouse7.bin
+createnobj data\house8.obj data\textures data\binfiles\house8.bin data\binfiles\shouse8.bin data\binfiles\rhouse8.bin
+createnobj data\house9.obj data\textures data\binfiles\house9.bin data\binfiles\shouse9.bin data\binfiles\rhouse9.bin
+createnobj data\kiosk.obj data\textures data\binfiles\kiosk.bin data\binfiles\skiosk.bin data\binfiles\rkiosk.bin
+
+transformbin data\binfiles\mg42.bin data\textures t=0,0,0 r=0,-90,0 s=1,1,1
+transformbin data\binfiles\tree1.bin data\textures t=0,0,0 r=90,0,0 s=1,1,1
+transformbin data\binfiles\tree2.bin data\textures t=0,0,0 r=90,0,0 s=1,1,1
+transformbin data\binfiles\tree3.bin data\textures t=0,0,0 r=90,0,0 s=1,1,1
+transformbin data\binfiles\tree4.bin data\textures t=0,0,0 r=90,0,0 s=1,1,1
+transformbin data\binfiles\snowtree1.bin data\textures t=0,0,0 r=90,0,0 s=1,1,1
+transformbin data\binfiles\snowtree2.bin data\textures t=0,0,0 r=90,0,0 s=1,1,1
+transformbin data\binfiles\snowtree3.bin data\textures t=0,0,0 r=90,0,0 s=1,1,1
+
+createnobj data\mg42.obj data\textures data\binfiles\tmg42.bin
+createnobj data\tree1.obj data\textures data\binfiles\ttree1.bin
+createnobj data\tree2.obj data\textures data\binfiles\ttree2.bin
+createnobj data\tree3.obj data\textures data\binfiles\ttree3.bin
+createnobj data\tree4.obj data\textures data\binfiles\ttree4.bin
+createnobj data\snowtree1.obj data\textures data\binfiles\tsnowtree1.bin
+createnobj data\snowtree2.obj data\textures data\binfiles\tsnowtree2.bin
+createnobj data\snowtree3.obj data\textures data\binfiles\tsnowtree3.bin
+
+transformbin data\binfiles\tiger.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+
+transformbin data\binfiles\sherman.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+
+transformbin data\binfiles\hetzer2.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+
+transformbin data\binfiles\churchil.bin data\textures t=0,0,0 r=0,-90,90 s=1,1,1
+
+createnobj data\tiger.obj data\textures data\binfiles\ttiger.bin
+createnobj data\churchil.obj data\textures data\binfiles\tchurchil.bin
+createnobj data\sherman.obj data\textures data\binfiles\tsherman.bin
+createnobj data\hetzer.obj data\textures data\binfiles\thetzer2.bin
+
+transformbin data\binfiles\biplane.bin data\textures t=0,0,0 r=0,90,-90 s=1,1,1
+transformbin data\binfiles\triplane.bin data\textures t=0,0,0 r=0,90,-90 s=1,1,1
+transformbin data\binfiles\me262.bin data\textures t=0,0,0 r=0,-90,90 s=1,1,1
+transformbin data\binfiles\stuka.bin data\textures t=0,0,0 r=0,-90,90 s=1,1,1
+transformbin data\binfiles\spitfire.bin data\textures t=0,0,0 r=0,-90,90 s=1,1,1
+transformbin data\binfiles\p51.bin data\textures t=0,0,0 r=0,-90,90 s=1,1,1
+
+createnobj data\biplane.obj data\textures data\binfiles\tbiplane.bin
+createnobj data\triplane.obj data\textures data\binfiles\ttriplane.bin
+createnobj data\me262.obj data\textures data\binfiles\tme262.bin
+createnobj data\stuka.obj data\textures data\binfiles\tstuka.bin
+createnobj data\spitfire.obj data\textures data\binfiles\tspitfire.bin
+createnobj data\p51.obj data\textures data\binfiles\tp51.bin
+
+createnobj data\road1.obj data\textures data\binfiles\road1.bin
+
+transformbin data\binfiles\yellowflag.bin data\textures t=0,0,0 r=90,90,0 s=1,1,1
+transformbin data\binfiles\blackflag.bin data\textures t=0,0,0 r=90,90,0 s=1,1,1
+transformbin data\binfiles\blueflag.bin data\textures t=0,0,0 r=90,90,0 s=1,1,1
+transformbin data\binfiles\redflag.bin data\textures t=0,0,0 r=90,90,0 s=1,1,1
+transformbin data\binfiles\greenflag.bin data\textures t=0,0,0 r=90,90,0 s=1,1,1
+
+createnobj data\yellowflag.obj data\textures data\binfiles\tyellowflag.bin
+createnobj data\blackflag.obj data\textures data\binfiles\tblackflag.bin
+createnobj data\blueflag.obj data\textures data\binfiles\tblueflag.bin
+createnobj data\redflag.obj data\textures data\binfiles\tredflag.bin
+createnobj data\greenflag.obj data\textures data\binfiles\tgreenflag.bin
+
+copy data\binfiles\explosioncircle.bin data\explosioncircle.bin
+copy data\binfiles\explosionflame.bin data\explosionflame.bin
+
+transformbin data\binfiles\night.bin data\textures t=0,0,0 r=180,0,0 s=1,1,1
+transformbin data\binfiles\day.bin data\textures t=0,0,0 r=180,0,0 s=1,1,1
+
+copy data\binfiles\tnight.bin data\night.bin
+copy data\binfiles\tday.bin data\day.bin
+
+transformbin data\binfiles\bomb.bin data\textures t=0,0,0 r=180,0,0 s=1,1,1
+transformbin data\binfiles\shell.bin data\textures t=0,0,0 r=180,0,0 s=1,1,1
+
+copy data\binfiles\bomb.bin data\bomb.bin
+copy data\binfiles\shell.bin data\shell.bin
+copy data\binfiles\explosion.bin data\explosion.bin
+
+//convert2 data\xfiles\lasergun.x data\textures data\binfiles
+//convert2 data\xfiles\Magnum.x data\textures data\binfiles
+
+createnobj data\bags.obj data\textures data\binfiles\bags.bin
+createnobj data\barrack.obj data\textures data\binfiles\barrack.bin
+createnobj data\bunker.obj data\textures data\binfiles\bunker.bin
+
+transformbin data\binfiles\flak1.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+transformbin data\binfiles\flak2.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+createnobj data\flak1.obj data\textures data\binfiles\tflak1.bin
+createnobj data\flak2.obj data\textures data\binfiles\tflak2.bin
+
+transformbin data\binfiles\gun1.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+transformbin data\binfiles\gun2.bin data\textures t=0,0,0 r=0,90,0 s=1,1,1
+createnobj data\gun1.obj data\textures data\binfiles\tgun1.bin
+createnobj data\gun2.obj data\textures data\binfiles\tgun2.bin
+
+createnobj data\hangar.obj data\textures data\binfiles\hangar.bin
+createnobj data\r11.obj data\textures data\binfiles\r11.bin
+createnobj data\r12.obj data\textures data\binfiles\r12.bin
+createnobj data\r14.obj data\textures data\binfiles\r14.bin
+createnobj data\r18.obj data\textures data\binfiles\r18.bin
+createnobj data\r22.obj data\textures data\binfiles\r22.bin
+createnobj data\r24.obj data\textures data\binfiles\r24.bin
+createnobj data\r28.obj data\textures data\binfiles\r28.bin
+createnobj data\r44.obj data\textures data\binfiles\r44.bin
+createnobj data\r48.obj data\textures data\binfiles\r48.bin
+createnobj data\r88.obj data\textures data\binfiles\r88.bin
+createnobj data\shed.obj data\textures data\binfiles\shed.bin
+createnobj data\tower.obj data\textures data\binfiles\tower.bin
+createnobj data\wall1.obj data\textures data\binfiles\wall1.bin
+createnobj data\wall2.obj data\textures data\binfiles\wall2.bin
+createnobj data\wall3.obj data\textures data\binfiles\wall3.bin
+createnobj data\wall4.obj data\textures data\binfiles\wall4.bin

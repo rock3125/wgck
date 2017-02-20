@@ -1,0 +1,1 @@
+createland data\landscape1.bin data\textures 64 64

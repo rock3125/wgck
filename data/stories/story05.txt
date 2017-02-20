@@ -1,0 +1,3 @@
+title=Desert Fox
+screen=story5-1.jpg
+map=story05.def

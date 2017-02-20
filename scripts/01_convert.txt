@@ -1,0 +1,86 @@
+convert2 data\xfiles\bridge1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\bridge2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\bridge3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\bank.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\church.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house4.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house5.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house6.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house7.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house8.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\house9.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\kiosk.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rbank.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rchurch.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse4.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse5.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse6.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse7.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse8.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhouse9.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rkiosk.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\sbank.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\schurch.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse4.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse5.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse6.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse7.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse8.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shouse9.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\skiosk.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tree1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tree2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tree3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tree4.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\snowtree1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\snowtree2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\snowtree3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\tiger.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\stiger.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rtiger.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\hetzer2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\shetzer2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rhetzer2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\sherman.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\ssherman.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rsherman.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\ssherman.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\rsherman.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\Chu_1.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\Chu_2.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\Chu_3.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\me109.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\me262.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\stuka.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\spitfire.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\trilpane.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\bilpane.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\p51.x data\textures data\binfiles -flipuv
+convert2 data\xfiles\explosionflame.x data\binfiles
+convert2 data\xfiles\explosioncircle.x data\binfiles
+convert2 data\xfiles\greenflag.x data\binfiles
+convert2 data\xfiles\yellowflag.x data\binfiles
+convert2 data\xfiles\redflag.x data\binfiles
+convert2 data\xfiles\blueflag.x data\binfiles
+convert2 data\xfiles\Bomb.x data\binfiles
+convert2 data\xfiles\Shell.x data\binfiles
+convert2 data\xfiles\morning.x data\binfiles
+convert2 data\xfiles\Day.x data\binfiles
+convert2 data\xfiles\night.x data\binfiles
+convert2 data\xfiles\twilight.x data\binfiles
+convert2 data\xfiles\explosion.x data\binfiles
+convert2 data\xfiles\lasergun.x data\binfiles
+convert2 data\xfiles\Magnum.x data\binfiles
+convert2 data\xfiles\Missionaccomplished.x data\binfiles
+convert2 data\xfiles\Gameover.x data\binfiles
+convert2 data\xfiles\3d_title.x data\binfiles
+convert2 data\xfiles\road1.x data\binfiles -flipuv

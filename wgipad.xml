@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<XML_DIZ_INFO>
+<MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>1.15</MASTER_PAD_VERSION>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+</MASTER_PAD_VERSION_INFO>
+<Company_Info>
+        <Company_Name>Excession Software</Company_Name>
+        <Address_1>19 Maygrove Drive</Address_1>
+        <Address_2>Orewa</Address_2>
+        <City_Town>Hibiscus Coast</City_Town>
+        <State_Province>HBC</State_Province>
+        <Zip_Postal_Code>1461</Zip_Postal_Code>
+        <Country>New Zealand</Country>
+        <Company_WebSite_URL>http://www.peter.co.nz</Company_WebSite_URL>
+<Contact_Info>
+        <Author_First_Name>Peter</Author_First_Name>
+        <Author_Last_Name>de Vocht</Author_Last_Name>
+        <Author_Email>peter@peter.co.nz</Author_Email>
+        <Contact_First_Name>Peter</Contact_First_Name>
+        <Contact_Last_Name>de Vocht</Contact_Last_Name>
+        <Contact_Email>peter@peter.co.nz</Contact_Email>
+    </Contact_Info>
+<Support_Info>
+        <Sales_Email>peter@peter.co.nz</Sales_Email>
+        <Support_Email>peter@peter.co.nz</Support_Email>
+        <General_Email>peter@peter.co.nz</General_Email>
+        <Sales_Phone>+64-9-4275147</Sales_Phone>
+        <Support_Phone>+64-9-4275147</Support_Phone>
+        <General_Phone>+64-9-4275147</General_Phone>
+        <Fax_Phone>na</Fax_Phone>
+    </Support_Info>
+</Company_Info>
+<Program_Info>
+        <Program_Name>War Games Inc</Program_Name>
+        <Program_Version>1.08</Program_Version>
+        <Program_Release_Month>05</Program_Release_Month>
+        <Program_Release_Day>15</Program_Release_Day>
+        <Program_Release_Year>2002</Program_Release_Year>
+        <Program_Cost_Dollars>14.95</Program_Cost_Dollars>
+        <Program_Cost_Other_Code />
+        <Program_Cost_Other />
+        <Program_Type>Shareware</Program_Type>
+        <Program_Release_Status>Major Update</Program_Release_Status>
+        <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+        <Program_OS_Support>Win95,Win98,WinME,WinNT 4.x,WinXP,Windows2000</Program_OS_Support>
+        <Program_Language>English,German</Program_Language>
+<File_Info>
+        <Filename_Versioned>instal~1.exe</Filename_Versioned>
+        <Filename_Previous>instal~1.exe</Filename_Previous>
+        <Filename_Generic>instal~1.exe</Filename_Generic>
+        <Filename_Long>installer.exe</Filename_Long>
+        <File_Size_Bytes>22328943</File_Size_Bytes>
+        <File_Size_K>21806</File_Size_K>
+        <File_Size_MB>21.81</File_Size_MB>
+    </File_Info>
+<Expire_Info>
+        <Has_Expire_Info>Y</Has_Expire_Info>
+        <Expire_Count>30</Expire_Count>
+        <Expire_Based_On>Days</Expire_Based_On>
+        <Expire_Other_Info />
+        <Expire_Month />
+        <Expire_Day />
+        <Expire_Year />
+    </Expire_Info>
+        <Program_Change_Info />
+        <Program_Specific_Category>Games</Program_Specific_Category>
+        <Program_Categories>Arcade</Program_Categories>
+        <Program_System_Requirements>PIII 700+,50 MB HDD, 128MB RAM, 16MB OpenGL accelerated Video card</Program_System_Requirements>
+        <Includes_JAVA_VM>N</Includes_JAVA_VM>
+        <Includes_VB_Runtime>N</Includes_VB_Runtime>
+        <Includes_DirectX>N</Includes_DirectX>
+</Program_Info>
+<Program_Descriptions>
+<English>
+        <Keywords>excession engine, excession software, war games inc, game, arcade, landscape, 3d, first person, third person</Keywords>
+        <Char_Desc_45>War Games Inc, a 3D interactive arcade game</Char_Desc_45>
+        <Char_Desc_80>War Games Inc, a 3D interactive arcade game, play single player or networked.</Char_Desc_80>
+        <Char_Desc_250>War Games Inc, a 3D interactive arcade game, play single player or networked.  Enjoy flying different airplanes, driving tanks, firing artillery and parachuting behind enemy lines.  Build your own worlds and scenarios using the World Builder.</Char_Desc_250>
+        <Char_Desc_450>War Games Inc, a 3D interactive arcade game, play single player or networked.  Enjoy flying airplanes, driving tanks, firing artillery and parachuting behind enemy lines.  Build your own worlds and scenarios using the World Builder.  Play 16 player networked over TCP/IP, play and test your own scenarios and challenge your combat skills.  Set up friendly and enemy AI.</Char_Desc_450>
+        <Char_Desc_2000>War Games Inc, a 3D interactive arcade game, play single player or networked.  Enjoy flying airplanes, driving tanks, firing artillery and parachuting behind enemy lines.  Build your own worlds and scenarios using the World Builder.  Play 16 player networked over TCP/IP, play and test your own scenarios and challenge your combat skills.  Set up friendly and enemy AI.  The fully registered version of this game includes a world builder and extra scenarios.  The game comes both in the English and German languages.</Char_Desc_2000>
+</English>
+</Program_Descriptions>
+<Web_Info>
+<Application_URLs>
+        <Application_Info_URL>http://www.peter.co.nz</Application_Info_URL>
+        <Application_Order_URL>http://www.peter.co.nz</Application_Order_URL>
+        <Application_Screenshot_URL>http://www.peter.co.nz/frames/mainframe_files/images/engineshot2.jpg</Application_Screenshot_URL>
+        <Application_Icon_URL>http://www.peter.co.nz/tank/wgi100x100.gif</Application_Icon_URL>
+        <Application_XML_File_URL>http://www.peter.co.nz/tank/wgipad.xml</Application_XML_File_URL>
+    </Application_URLs>
+<Download_URLs>
+        <Primary_Download_URL>http://www.peter.co.nz/tank/installer.exe</Primary_Download_URL>
+        <Secondary_Download_URL />
+        <Additional_Download_URL_1 />
+        <Additional_Download_URL_2 />
+    </Download_URLs>
+</Web_Info>
+<Permissions>
+        <Distribution_Permissions />
+        <EULA />
+</Permissions>
+</XML_DIZ_INFO>

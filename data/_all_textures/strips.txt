@@ -1,0 +1,5 @@
+Green mountains=strip.bmp
+Winter scape=strip1.bmp
+Red planet=strip2.bmp
+Desert=strip3.bmp
+Rocky Shore=strip4.bmp

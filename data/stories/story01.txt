@@ -1,0 +1,3 @@
+title=St.Remeau
+screen=story1-1.jpg,story1-2.jpg
+map=story01.def

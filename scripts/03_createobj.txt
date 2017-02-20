@@ -1,0 +1,25 @@
+createobj data\house1.obj data\textures data\binfiles\house1.bin data\binfiles\shouse1.bin data\binfiles\rhouse1.bin
+createobj data\house2.obj data\textures data\binfiles\house2.bin data\binfiles\shouse2.bin data\binfiles\rhouse2.bin
+createobj data\house3.obj data\textures data\binfiles\house3.bin data\binfiles\shouse3.bin data\binfiles\rhouse3.bin
+createobj data\house4.obj data\textures data\binfiles\house4.bin data\binfiles\shouse4.bin data\binfiles\rhouse4.bin
+createobj data\house5.obj data\textures data\binfiles\house5.bin data\binfiles\shouse5.bin data\binfiles\rhouse5.bin
+createobj data\house6.obj data\textures data\binfiles\house6.bin data\binfiles\shouse6.bin data\binfiles\rhouse6.bin
+createobj data\house7.obj data\textures data\binfiles\house7.bin data\binfiles\shouse7.bin data\binfiles\rhouse7.bin
+createobj data\house8.obj data\textures data\binfiles\house8.bin data\binfiles\shouse8.bin data\binfiles\rhouse8.bin
+createobj data\house9.obj data\textures data\binfiles\house9.bin data\binfiles\shouse9.bin data\binfiles\rhouse9.bin
+createobj data\bank.obj data\textures data\binfiles\bank.bin data\binfiles\sbank.bin data\binfiles\rbank.bin
+createobj data\church.obj data\textures data\binfiles\church.bin data\binfiles\schurch.bin data\binfiles\rchurch.bin
+createobj data\kiosk.obj data\textures data\binfiles\kiosk.bin data\binfiles\skiosk.bin data\binfiles\rkiosk.bin
+createobj data\sherman.obj data\textures data\binfiles\sherman.bin data\binfiles\ssherman.bin data\binfiles\rsherman.bin
+createobj data\tiger.obj data\textures data\binfiles\tiger.bin data\binfiles\stiger.bin data\binfiles\rtiger.bin
+createobj data\hetzer.obj data\textures data\binfiles\hetzer2.bin data\binfiles\shetzer2.bin data\binfiles\rhetzer2.bin
+//createobj data\racecar1.obj data\textures data\binfiles\racecar1.bin
+//createobj data\racecar2.obj data\textures data\binfiles\racecar2.bin
+
+createobj data\tree.obj data\textures data\binfiles\tree.bin
+createobj data\bridge1.obj data\textures data\binfiles\bridge1.bin
+createobj data\bridge2.obj data\textures data\binfiles\bridge2.bin
+createobj data\bridge3.obj data\textures data\binfiles\bridge3.bin
+
+createobj data\fuel.obj data\textures data\binfiles\barrel.bin
+createobj data\ammo.obj data\textures data\binfiles\ammobox.bin

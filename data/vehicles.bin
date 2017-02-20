@@ -1,0 +1,37 @@
+[tanks]
+// objname=icon#,barrelXadj, barrelYadj, barrelZadj, gunRange, reloadTime, hover,
+// engineSound, gunSound, minBarrelAngle, maxBarrelAngle, speed,
+// fuelConsumption
+sherman.obj=3,0,-0.30,-0.14,20,3000,0.4,0,2,-15,10,0.4,0.01
+tiger.obj=2,0,-0.18,-0.13,25,3000,0.35,1,2,-10,7,0.5,0.02
+hetzer.obj=1,0,-0.01,0.16,30,3000,0.25,1,2,-30,10,0.55,0.025
+churchil.obj=0,0,-0.20,-0.14,20,3000,0.35,0,2,-10,5,0.35,0.02
+
+[planes]
+// objname=icon#,restAngle,response,takeoffSpeed,gunRange,ceiling, hover
+// engineSound, gunSound, fuelConsumption
+p51.obj=11,10,0.018,0.55,20,75,0.5,6,5,0.02
+triplane.obj=9,22,0.01,0.5,15,50,0.05,6,5,0.01
+biplane.obj=14,22,0.01,0.5,15,50,0.15,6,5,0.01
+stuka.obj=13,17,0.015,0.55,20,80,0.45,6,5,0.02
+me262.obj=10,0,0.02,0.6,20,80,0.6,7,5,0.1
+spitfire.obj=12,17,0.015,0.56,20,80,0.4,6,5,0.02
+
+[flak]
+// objName=icon#,gunRange,hover,engineSound,gunSound
+flak1.obj=4,50,0,6,2
+flak2.obj=5,50,0,6,2
+
+[artillery]
+// objname=icon#,gunRange,hover,engineSound,gunSound,fuelConsumption,speed
+// minBarrelAngle, maxBarrelAngle
+gun1.obj=6,40,0.45,6,2,0.01,0.15,-30,2
+gun2.obj=7,40,0.45,6,2,0.01,0.15,-30,2
+
+[mg42]
+// objName=icon#,gunRange,hover,gunSound
+mg42.obj=8,25,0,9
+
+[v2]
+// objName=engineSound,hover
+v2.obj=7,0

@@ -1,0 +1,608 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PERFORMANCE DIALOGEX 0, 0, 247, 129
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Performance Test"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Start Test",IDOK,193,111,50,14
+    PUSHBUTTON      "Close",IDCANCEL,140,111,50,14
+    EDITTEXT        IDC_EDIT1,7,7,233,62,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_RESOLUTION,52,80,114,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Run Fullscreen",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,99,74,10
+    LTEXT           "Resolution:",-1,8,82,42,8
+END
+
+IDD_SETUP DIALOGEX 0, 0, 150, 188
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Excession Engine Setup"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Start Game",IDC_RUN,18,68,99,14
+    PUSHBUTTON      "E&xit",IDCANCEL,18,152,99,14
+    PUSHBUTTON      "&Test Video and Performance",IDC_PERFORMANCE,18,32,99,
+                    14
+    PUSHBUTTON      "&Video Settings",IDC_VIDEO,18,14,99,14
+    PUSHBUTTON      "&About",IDC_ABOUT,18,86,99,14
+    PUSHBUTTON      "H&elp",IDC_README,18,104,99,14
+    EDITTEXT        IDC_VERSION,83,173,65,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    PUSHBUTTON      "&No More Registration?",IDC_REGISTER,18,123,99,14
+    PUSHBUTTON      "&Audio Settings",IDC_SOUND,18,50,99,14
+END
+
+IDD_VIDEOSETUP DIALOG DISCARDABLE  0, 0, 201, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Video Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_RESOLUTION,52,5,114,30,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Run Fullscreen",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,31,74,10
+    CONTROL         "Limit frame rate to 15 fps",IDC_LIMITFPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,43,95,10
+    DEFPUSHBUTTON   "OK",IDOK,147,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,93,65,50,14
+    LTEXT           "Resolution:",-1,8,7,42,8
+END
+
+IDD_TIMELIMIT DIALOG DISCARDABLE  0, 0, 201, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Time Limit"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Show this dialog next time",IDC_SHOWAGAIN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,62,113,10
+    DEFPUSHBUTTON   "OK",IDOK,147,65,50,14
+    EDITTEXT        IDC_TLMESSAGE,7,6,184,48,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+END
+
+IDD_HOSTDIALOG DIALOG DISCARDABLE  0, 0, 303, 177
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Host Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,66,8,131,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GAMENAME,66,26,131,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_SIDE,39,51,90,13,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_MAP,39,65,90,13,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "&Host",IDOK,195,160,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,249,160,50,14
+    LTEXT           "Name:",IDC_STATIC,36,11,27,9
+    LTEXT           "Game Name:",IDC_STATIC,16,27,42,8
+    LTEXT           "Vehicle:",IDC_STATIC,9,54,26,9
+    LTEXT           "Map:",IDC_STATIC,17,67,18,9
+    LTEXT           "TCP/IP port:",IDC_STATIC,204,11,43,8
+    EDITTEXT        IDC_PORT,250,8,47,14,ES_AUTOHSCROLL
+    LTEXT           "Lighting:",IDC_STATIC,7,80,28,9
+    COMBOBOX        IDC_LIGHTING,39,79,90,13,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Type:",IDC_STATIC,15,95,21,10
+    COMBOBOX        IDC_GAMETYPE,39,93,90,13,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Points:",IDC_GAME2,11,124,24,10
+    EDITTEXT        IDC_SCORE,39,122,47,14,ES_AUTOHSCROLL
+    LTEXT           "Team:",IDC_STATIC,11,109,24,10
+    COMBOBOX        IDC_TEAM,39,107,90,13,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Customise",IDC_CUSTOMISE,132,52,40,10
+    CONTROL         "Enable vehicle customisations",IDC_ENABLECUSTOMISE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,138,114,13
+    CONTROL         "",IDC_IMAGE,"Static",SS_BLACKFRAME,180,51,95,76
+END
+
+IDD_JOINDIALOG DIALOG DISCARDABLE  0, 0, 311, 182
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Join Game"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,66,8,131,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HOSTNAME,66,26,131,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Connect",IDC_CONNECT,248,35,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,256,163,50,14
+    LTEXT           "Name:",IDC_STATIC,36,11,23,9
+    LTEXT           "Host Name or IP:",IDC_STATIC,6,27,56,9
+    LTEXT           "TCP/IP port:",IDC_STATIC,204,11,43,8
+    EDITTEXT        IDC_PORT,250,8,47,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_SIDE,39,66,90,13,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Vehicle:",IDC_STATIC,9,69,26,9
+    LTEXT           "Team:",IDC_STATIC,11,82,24,10
+    COMBOBOX        IDC_TEAM,39,81,90,13,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Join details",IDC_STATIC,0,0,308,54
+    PUSHBUTTON      "Customise",IDC_CUSTOMISE,133,67,40,10
+    CONTROL         "",IDC_IMAGE,"Static",SS_BLACKFRAME,191,66,95,76
+    DEFPUSHBUTTON   "&Join",IDOK,203,163,50,14
+    LISTBOX         IDC_LIST1,9,103,166,69,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_REGISTER DIALOG DISCARDABLE  0, 0, 224, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Register"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,158,188,59,15
+    PUSHBUTTON      "Enter registration code",IDC_ENTERREGISTRATION,111,159,
+                    92,17
+    PUSHBUTTON      "Purchase now from RegNow",IDC_PURCHASE,9,159,99,17
+END
+
+IDD_ENTERREGO DIALOG DISCARDABLE  0, 0, 255, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "WGI Registration Code Generator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_REGONAME,67,4,164,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REGOCODE,67,34,164,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Done",IDCANCEL,197,82,50,14
+    LTEXT           "generated code",-1,11,36,52,10
+    DEFPUSHBUTTON   "Generate",IDC_GENERATE,142,82,50,14
+    LTEXT           "email",-1,43,6,21,11
+END
+
+IDD_MAPEDITOR DIALOGEX 0, 0, 304, 205
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION "Map Settings"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_PLANTS,42,4,89,12,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Plants :",-1,14,6,24,8
+    LTEXT           "Map items :",-1,2,93,36,8
+    COMBOBOX        IDC_MAPITEMS,42,91,89,12,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Map name :",-1,13,109,40,10
+    LTEXT           "Creator name :",-1,4,122,46,10
+    LTEXT           "Map bmp File :",-1,183,72,47,10
+    EDITTEXT        IDC_MAPNAME,58,108,111,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CREATOR,58,122,111,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BINFILE,236,72,49,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "> &Add",IDC_ADDPLANT,135,5,34,11,BS_LEFT
+    PUSHBUTTON      "> &Delete",IDC_DELETE,135,92,34,11,BS_LEFT
+    LTEXT           "Colouring :",-1,195,86,34,10
+    CONTROL         "Slider1",IDC_WATER,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,233,56,62,11
+    PUSHBUTTON      "Rebuild",IDC_REBUILDMAP,261,118,39,12
+    COMBOBOX        IDC_STRIPFILE,236,86,65,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Terrain Style :",-1,185,101,46,10
+    COMBOBOX        IDC_BUMPS,236,101,65,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Level Details",-1,174,42,130,144
+    GROUPBOX        "World zoom in && out",-1,174,0,129,32
+    CONTROL         "Slider1",IDC_SCALE,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,180,13,119,11
+    LTEXT           "Water level :",-1,188,58,41,10
+    PUSHBUTTON      "...",IDC_LOADBITMAP,289,74,11,9
+    COMBOBOX        IDC_VEHICLES,42,18,89,12,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Vehicles :",-1,6,19,32,8
+    PUSHBUTTON      "> &Add",IDC_ADDVEHICLE,135,19,34,11,BS_LEFT
+    COMBOBOX        IDC_PLANES,42,32,89,12,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Planes :",-1,12,33,26,8
+    PUSHBUTTON      "> &Add",IDC_ADDPLANE,135,33,34,11,BS_LEFT
+    COMBOBOX        IDC_STRUCTURES,42,46,89,12,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Structures :",-1,3,48,37,8
+    PUSHBUTTON      "> &Add",IDC_ADDSTRUCTURE,135,47,34,11,BS_LEFT
+    COMBOBOX        IDC_MISC,42,60,89,12,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Misc :",-1,18,62,20,8
+    PUSHBUTTON      "> &Add",IDC_ADDMISC,135,61,34,11,BS_LEFT
+    COMBOBOX        IDC_TEAMS,42,74,89,12,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Team :",-1,14,76,23,8
+    PUSHBUTTON      "> &Add",IDC_ADDTEAM,135,75,34,11,BS_LEFT
+    GROUPBOX        "Generator Tools",-1,0,137,163,67
+    PUSHBUTTON      "Random Disperse",IDC_RANDOMDISPERSE,6,150,65,11
+    EDITTEXT        IDC_RANDOMCOUNT,116,149,25,12,ES_AUTOHSCROLL
+    LTEXT           "Num Items:",-1,76,151,36,8
+    EDITTEXT        IDC_RANDOMSCALE,116,162,25,12,ES_AUTOHSCROLL
+    LTEXT           "Scale:",-1,89,163,21,8
+    EDITTEXT        IDC_RANDOMYOFFSET,116,175,25,12,ES_AUTOHSCROLL
+    LTEXT           "Y Offset:",-1,81,176,28,8
+    COMBOBOX        IDC_TOD,236,140,65,12,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Time of day :",-1,187,142,42,10
+    LTEXT           "Soundtrack :",-1,188,155,42,10
+    COMBOBOX        IDC_SOUNDTRACK,187,166,112,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_BOTDLG DIALOGEX 0, 0, 185, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION "Bot Management"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Add marker",IDC_ADDLINEARMARKER,106,2,63,15
+    COMBOBOX        IDC_MARKERS,6,3,95,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Remove marker",IDC_REMOVELINEARMARKER,106,18,63,15
+    CONTROL         "Show Markers",IDC_SHOW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,19,68,10
+    COMBOBOX        IDC_CONNECTION1,8,41,73,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_CONNECTION2,8,57,73,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_CONNECTION3,8,73,73,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "AI paths",IDC_AI1,"Button",BS_AUTORADIOBUTTON,106,51,47,
+                    11
+    CONTROL         "Patrol paths",IDC_AI2,"Button",BS_AUTORADIOBUTTON,106,
+                    63,55,11
+    GROUPBOX        "AI Type",-1,89,39,91,50
+    CONTROL         "Sequencers",IDC_AI3,"Button",BS_AUTORADIOBUTTON,106,75,
+                    55,11
+END
+
+IDD_PROGRESS DIALOG DISCARDABLE  0, 0, 178, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Creating Map"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,125,47,50,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    10,14,163,10
+END
+
+IDD_SELECTEDOBJECT DIALOGEX 0, 0, 406, 157
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION "Selected Object Properties"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "X:",-1,15,19,11,12
+    LTEXT           "Y:",-1,15,31,11,12
+    LTEXT           "Z:",-1,15,45,11,12
+    EDITTEXT        IDC_XPOS,31,17,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YPOS,31,31,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZPOS,31,45,35,12,ES_AUTOHSCROLL
+    LTEXT           "X:",-1,15,99,11,12
+    LTEXT           "Y:",-1,15,110,11,12
+    LTEXT           "Z:",-1,15,123,11,12
+    EDITTEXT        IDC_XROT,31,95,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YROT,31,108,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZROT,31,122,59,12,ES_AUTOHSCROLL
+    LTEXT           "Save Rotation Setting:",-1,8,142,80,10
+    PUSHBUTTON      "Add",IDC_ADDROTATIONSETTING,152,139,33,14
+    EDITTEXT        IDC_ROTATIONSETTINGNAME,89,140,59,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_SAVEDROTATIONS,114,81,82,12,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "X:",-1,213,100,11,12
+    LTEXT           "Y:",-1,213,111,11,12
+    LTEXT           "Z:",-1,213,124,11,12
+    EDITTEXT        IDC_XSCALE,229,97,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YSCALE,229,110,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZSCALE,229,124,59,12,ES_AUTOHSCROLL
+    LTEXT           "Save Scale Setting:",-1,209,142,69,10
+    PUSHBUTTON      "Add",IDC_ADDSCALESETTING,343,139,33,14
+    EDITTEXT        IDC_SCALESETTINGNAME,279,140,59,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_SAVEDSCALES,312,81,82,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Y on landscape",IDC_HUGH,72,31,55,12
+    LTEXT           "Presets:",-1,80,82,29,9
+    LTEXT           "Presets:",-1,279,82,29,9
+    CONTROL         "Slider1",IDC_XROTSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,97,97,103,11
+    CONTROL         "Slider1",IDC_YROTSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,97,110,103,11
+    CONTROL         "Slider1",IDC_ZROTSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,97,123,103,11
+    CONTROL         "Slider1",IDC_XSCALESLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,295,100,103,11
+    CONTROL         "Slider1",IDC_YSCALESLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,295,113,103,11
+    CONTROL         "Slider1",IDC_ZSCALESLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,295,126,103,11
+    CONTROL         "Destructabe",IDC_INDESTRUCTABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,142,13,55,11
+    GROUPBOX        "Rotation",-1,2,75,201,82
+    GROUPBOX        "Scale",-1,204,75,201,82
+    GROUPBOX        "Position",-1,2,0,130,75
+    GROUPBOX        "Game Properties",-1,133,0,272,75
+    CONTROL         "isa AI",IDC_ISA_AI,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,142,26,39,11
+    COMBOBOX        IDC_AITYPE,187,26,68,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Importance:",-1,144,42,42,8
+    COMBOBOX        IDC_GAMEIMPORTANCE,187,40,68,12,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Strength:",-1,329,14,29,8
+    EDITTEXT        IDC_STRENGTHEDIT,361,12,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Points:",-1,336,27,22,8
+    EDITTEXT        IDC_POINTS,361,25,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Refuel station",IDC_REFUEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,140,56,60,8
+    CONTROL         "Armory",IDC_ARMORY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,203,56,35,8
+    CONTROL         "Repair Shop",IDC_REPAIRS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,246,56,56,8
+    LTEXT           "Shells:",-1,336,40,22,8
+    RTEXT           "Bombs:",IDC_LABEL2,301,52,56,8
+    EDITTEXT        IDC_SHELLS,361,38,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_BOMBS,361,51,30,13,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_AITEAM,260,26,68,12,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Character :",-1,220,11,37,10
+    COMBOBOX        IDC_CHARACTER2,260,10,68,12,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_LANGUAGESELECTION DIALOGEX 0, 0, 354, 133
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Please select your language"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_ENGLISH,"Button",BS_OWNERDRAW | WS_TABSTOP,8,10,
+                    108,100,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_GERMAN,"Button",BS_OWNERDRAW | WS_TABSTOP,123,10,
+                    108,100,WS_EX_CLIENTEDGE
+    LTEXT           "English",-1,49,113,33,12
+    LTEXT           "Deutsch",-1,163,113,33,12
+    CONTROL         "",IDC_DUTCH,"Button",BS_OWNERDRAW | WS_TABSTOP,239,10,
+                    108,100,WS_EX_CLIENTEDGE
+    LTEXT           "Nederlands",-1,277,113,43,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Host new game",              IDM_HOST
+        MENUITEM "&Join game",                  IDM_JOIN
+        MENUITEM SEPARATOR
+        MENUITEM "&Quit",                       ID_FILE_QUIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Full Screen",                ID_VIEW_FULLSCREEN
+        POPUP "&Resolution"
+        BEGIN
+            MENUITEM "640 x 480",                   ID_VIEW_RESOLUTION_640X480
+            , CHECKED
+            MENUITEM "800 x 600",                   ID_VIEW_RESOLUTION_800X600
+
+            MENUITEM "1024 x 768",                  ID_VIEW_RESOLUTION_1024X768
+
+            MENUITEM "1280 x 1024",                 ID_VIEW_RESOLUTION_1280X1024
+
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Controls",                   ID_HELP_CONTROLS
+        MENUITEM "&Manual",                     IDM_MANUAL
+        MENUITEM SEPARATOR
+        MENUITEM "&About",                      IDM_ABOUT
+    END
+END
+
+IDM_MAPEDITOR MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        IDC_NEW
+        MENUITEM "&Load",                       IDC_LOAD
+        MENUITEM "&Save",                       IDC_SAVE
+        MENUITEM "Save &As",                    IDC_SAVEAS
+        MENUITEM "&Quit",                       IDC_QUIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Manual",                     ID_HELP_MANUAL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_ENTERREGO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_MAPEDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_BOTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_SELECTEDOBJECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 377
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_LANGUAGESELECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEMPLATE1
+//
+
+IDR_SPACESTATION        TEMPLATE1 DISCARDABLE   "spaceStationCredits.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GERMAN              BITMAP  DISCARDABLE     "germanFlag.bmp"
+IDB_ENGLISH             BITMAP  DISCARDABLE     "unionJack.bmp"
+IDB_DUTCH               BITMAP  DISCARDABLE     "nederlandseVlag.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,1
+ PRODUCTVERSION 1,0,0,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "War Games Inc.\0"
+            VALUE "CompanyName", "Excession Software Limited\0"
+            VALUE "FileDescription", "War Games Inc.\0"
+            VALUE "FileVersion", "1, 0, 1, 1\0"
+            VALUE "InternalName", "War Games Inc.\0"
+            VALUE "LegalCopyright", "Copyright © 2002 Peter de Vocht\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Game.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Game\0"
+            VALUE "ProductVersion", "1, 0, 0, 7\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,225 @@
+# Makefile for zlib
+# Copyright (C) 1995-1998 Jean-loup Gailly.
+# For conditions of distribution and use, see copyright notice in zlib.h 
+#
+# Makefile modifications Copyright (c) 1998 by Wayne Gramlich
+#
+# Use the same conditions and distribution as in zlib.h.
+
+.PHONY: all test install clean platform site
+
+# Included make files:
+ROOT = ../..
+include $(ROOT)/Makefile_common.mk
+include $(ROOT)/Makefile_private.mk
+
+# Install directories:
+BIN_DIRECTORY = $(ROOT)/bin/$(PLATFORM)
+LIB_DIRECTORY = $(ROOT)/lib/$(PLATFORM)
+MAN_DIRECTORY = $(ROOT)/man
+MAN3_DIRECTORY = $(MAN_DIRECTORY)/man3
+INCLUDE_DIRECTORY = $(ROOT)/include
+
+AR=ar rc
+CC=gcc
+CFLAGS=-O3 -DHAVE_UNISTD_H -DUSE_MMAP
+
+#CFLAGS=-O -DMAX_WBITS=14 -DMAX_MEM_LEVEL=7
+#CFLAGS=-g -DDEBUG
+#CFLAGS=-O3 -Wall -Wwrite-strings -Wpointer-arith -Wconversion \
+#           -Wstrict-prototypes -Wmissing-prototypes
+
+VER=1.1.2
+
+LIBRARY_BASES =		\
+	adler32		\
+	compress	\
+	crc32		\
+	gzio		\
+	uncompr		\
+	deflate		\
+	trees		\
+	zutil		\
+	inflate		\
+	infblock	\
+	inftrees	\
+	infcodes	\
+	infutil		\
+	inffast
+LIBRARY_SOURCES = ${LIBRARY_BASES:%=%.c}
+LIBRARY_OBJECTS = ${LIBRARY_BASES:%=$(PLATFORM)/%.o}
+LIBRARY = $(PLATFORM)/libz.a
+
+EXAMPLE_BASES =		\
+	example
+EXAMPLE_SOURCES = ${EXAMPLE_BASES:%=%.c}
+EXAMPLE_OBJECTS = ${EXAMPLE_BASES:%=$(PLATFORM)/%.o}
+EXAMPLE = $(PLATFORM)/example
+
+MINIGZIP_BASES = 	\
+	minigzip
+MINIGZIP_SOURCES = ${MINIGZIP_BASES:%=%.c}
+MINIGZIP_OBJECTS = ${MINIGZIP_BASES:%=$(PLATFORM)/%.o}
+MINIGZIP = $(PLATFORM)/minigzip
+
+HEADERS =			\
+	deflate.h		\
+	infblock.h		\
+	infcodes.h		\
+	inffast.h		\
+	inffixed.h		\
+	inftrees.h		\
+	infutil.h		\
+	trees.h			\
+	zconf.h			\
+	zlib.h
+
+SOURCES =			\
+	${LIBRARY_SOURCES}	\
+	${EXAMPLE_SOURCES}	\
+	${MINIZIP_SOURCES}	\
+	${HEADERS}		\
+	ChangeLog		\
+	Makefile		\
+	README			\
+	zlib.3			\
+	algorithm.txt
+ALL_SOURCES =			\
+	${SOURCES}		\
+	index.html		\
+	source.html
+
+ALL_OBJECTS =			\
+	${LIBRARY_OBJECTS}	\
+	${EXAMPLE_OBJECTS}	\
+	${MINIGZIP_OBJECTS}
+
+PROGRAMS = 		\
+	$(EXAMPLE)	\
+	$(MINIGZIP)
+
+INSTALL_TARGETS =			\
+	$(INCLUDE_DIRECTORY)/zlib.h	\
+	$(INCLUDE_DIRECTORY)/zconf.h	\
+	$(MAN3_DIRECTORY)/zlib.3	\
+	$(LIB_DIRECTORY)/$(LIBRARY)
+
+all: platform ${PROGRAMS}
+
+copy: source.html
+	set -e ;							\
+	if [ "$(COPY_DIRECTORY)" = "" ] ;				\
+	  then								\
+	    echo "Please set COPY_DIRECTORY in `pwd`" ;			\
+	    exit 1 ;							\
+	  fi
+	rm -rf $(COPY_DIRECTORY)
+	mkdir -p $(COPY_DIRECTORY)
+	cp ${ALL_SOURCES} $(COPY_DIRECTORY)
+
+test: all
+	LD_LIBRARY_PATH=.:$(LD_LIBRARY_PATH) ; export LD_LIBRARY_PATH; \
+	echo hello world | ./$(MINIGZIP) | ./$(MINIGZIP) -d || \
+	  echo '		*** minigzip test FAILED ***' ; \
+	if ./$(EXAMPLE); then \
+	  echo '		*** zlib test OK ***'; \
+	else \
+	  echo '		*** zlib test FAILED ***'; \
+	fi
+
+source.html: Makefile ${SOURCES}
+	@echo -n "Generating $@..."
+	@rm -f $@
+	@echo '<HTML>' > $@
+	@echo '<Head>' >> $@
+	@echo '<Title>zlib Source Files</Title>' >> $@
+	@echo '</Head>' >> $@
+	@echo '<Body>' >> $@
+	@echo '<P>These are the source files for the' >> $@
+	@echo '<A HRef="index.html">PBMPlus Download</A>' >> $@
+	@echo 'top-level directory.</P>' >> $@
+	@echo '<H1>' >> $@
+	@echo 'zlib Source Files' >> $@
+	@echo '</H1>' >> $@
+	@echo '<P>The following source files are available:</P>' >> $@
+	@echo '<UL>' >> $@
+	@for i in `ls ${SOURCES} | sort` ; do 				\
+		echo "  <LI><A HRef='$$i'>$$i</A></LI>" >> $@ ;		\
+		done
+	@echo '</UL>' >> $@
+	@echo '<HR>' >> $@
+	@echo '<Address>' >> $@
+	@echo 'This page is' >> $@
+	@echo '<A HRef="../../../../copyright.html">' >> $@
+	@echo 'Copyright</A> (c) 1998 by' >> $@
+	@echo '<A HRef="../../../../gramlich.html">' >> $@
+	@echo 'Wayne Gramlich</A> All rights reserved.' >> $@
+	@echo '</Address>' >> $@
+	@echo '</Body>' >> $@
+	@echo '</HTML>' >> $@
+	@echo "Done"
+	
+# The library proper:
+$(LIBRARY): ${LIBRARY_OBJECTS}
+	$(AR) $@ ${LIBRARY_OBJECTS}
+
+# Test programs:
+$(EXAMPLE): ${EXAMPLE_OBJECTS} $(LIBRARY)
+	$(CC) -o $@ ${EXAMPLE_OBJECTS} $(LIBRARY)
+
+$(MINIGZIP): ${MINIGZIP_OBJECTS} $(LIBRARY)
+	$(CC) -o $@ ${MINIGZIP_OBJECTS} $(LIBRARY)
+
+# Install stuff:
+install: platform $(WAIT) ${INSTALL_TARGETS}
+
+$(INCLUDE_DIRECTORY)/zlib.h: zlib.h
+	mkdir -p $(INCLUDE_DIRECTORY)
+	cp zlib.h $@
+	chmod 644 $@
+
+$(INCLUDE_DIRECTORY)/zconf.h: zconf.h
+	mkdir -p $(INCLUDE_DIRECTORY)
+	cp zconf.h $@
+	chmod 644 $@
+
+$(LIB_DIRECTORY)/$(LIBRARY): $(LIBRARY)
+	mkdir -p $(LIB_DIRECTORY)/$(PLATFORM)
+	cp $(LIBRARY) $@
+	chmod 644 $@
+
+$(MAN3_DIRECTORY)/zlib.3: zlib.3
+	mkdir -p $(MAN3_DIRECTORY)
+	cp zlib.3 $@
+	chmod 644 $@
+
+# Misc. stuff:
+site: clean
+
+clean:
+	rm -rf $(PLATFORM)
+	rm -f *~ foo.gz
+
+${ALL_OBJECTS}:
+	$(CC) ${CFLAGS} -c -o $@ $(@:$(PLATFORM)/%.o=%.c)
+
+platform: $(PLATFORM)/touched ${ALL_SOURCES}
+	
+
+$(PLATFORM)/touched:
+	rm -rf $(PLATFORM)
+	mkdir $(PLATFORM)
+	touch $@
+
+# This is the old Makefile stuff for dealing with old shared libraries:
+#	cd $(exec_prefix)/lib; chmod 755 $(LIBRARY)
+#	cd $(exec_prefix)/lib; if test -f $(SHAREDLIB).$(VER); then \
+#	  rm -f $(SHAREDLIB) $(SHAREDLIB).1; \
+#	  ln -s $(SHAREDLIB).$(VER) $(SHAREDLIB); \
+#	  ln -s $(SHAREDLIB).$(VER) $(SHAREDLIB).1; \
+#	  (ldconfig || true)  >/dev/null 2>&1; \
+#	fi
+# The ranlib in install is needed on NeXTSTEP which checks file times
+# ldconfig is for Linux
+
+

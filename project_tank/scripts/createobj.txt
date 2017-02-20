@@ -1,0 +1,14 @@
+createobj data\house1.obj data\textures data\house1.bin data\shouse1.bin data\rhouse1.bin
+createobj data\house2.obj data\textures data\house2.bin data\shouse2.bin data\rhouse2.bin
+createobj data\house3.obj data\textures data\house3.bin data\shouse3.bin data\rhouse3.bin
+createobj data\house4.obj data\textures data\house4.bin data\shouse4.bin data\rhouse4.bin
+createobj data\house5.obj data\textures data\house5.bin data\shouse5.bin data\rhouse5.bin
+createobj data\house6.obj data\textures data\house6.bin data\shouse6.bin data\rhouse6.bin
+createobj data\house7.obj data\textures data\house7.bin data\shouse7.bin data\rhouse7.bin
+createobj data\house8.obj data\textures data\house8.bin data\shouse8.bin data\rhouse8.bin
+createobj data\house9.obj data\textures data\house9.bin data\shouse9.bin data\rhouse9.bin
+createobj data\bank.obj data\textures data\bank.bin data\sbank.bin data\rbank.bin
+createobj data\church.obj data\textures data\church.bin data\schurch.bin data\rchurch.bin
+createobj data\kiosk.obj data\textures data\kiosk.bin data\skiosk.bin data\rkiosk.bin
+createobj data\sherman.obj data\textures data\sherman.bin data\ssherman.bin data\rsherman.bin
+createobj data\tiger.obj data\textures data\tiger.bin data\stiger.bin data\rtiger.bin

@@ -1,0 +1,235 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "myGL.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONSOLEDIALOG DIALOGEX 0, 0, 300, 242
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT
+CAPTION "Console"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CONSOLEEDIT,0,0,299,242,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL | NOT WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_PERFORMANCE DIALOGEX 0, 0, 247, 102
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Performance Test"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Start Test",IDOK,190,81,50,14
+    PUSHBUTTON      "Close",IDCANCEL,137,81,50,14
+    EDITTEXT        IDC_EDIT1,7,7,233,62,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+    CONTROL         "Enable Sound",IDC_SOUNDS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,85,61,10
+END
+
+IDD_SETUP DIALOGEX 0, 0, 150, 138
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Excession Engine Setup"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "Start &Game",IDOK,18,49,99,14
+    PUSHBUTTON      "E&xit",IDCANCEL,18,105,99,14
+    PUSHBUTTON      "&Test Video and Performance",IDC_PERFORMANCE,18,32,99,
+                    14
+    PUSHBUTTON      "&Video Settings",IDC_VIDEO,18,14,99,14
+    PUSHBUTTON      "&About",IDC_ABOUT,18,66,99,14
+    PUSHBUTTON      "View readme.txt",IDC_README,18,83,99,14
+    EDITTEXT        IDC_VERSION,83,124,65,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+END
+
+IDD_VIDEOSETUP DIALOG DISCARDABLE  0, 0, 218, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Video Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,161,114,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,114,50,14
+    GROUPBOX        "Resolution",IDC_STATIC,7,7,99,85
+    CONTROL         "640 x 480",IDC_640x480,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,17,21,75,10
+    CONTROL         "800 x 600",IDC_800x600,"Button",BS_AUTORADIOBUTTON,17,
+                    33,60,10
+    CONTROL         "1024 x 768",IDC_1024x768,"Button",BS_AUTORADIOBUTTON,17,
+                    47,62,10
+    CONTROL         "1280 x 1024",IDC_1280x1024,"Button",BS_AUTORADIOBUTTON,
+                    17,60,65,10
+    GROUPBOX        "Bit Depth",IDC_STATIC,110,7,97,85
+    CONTROL         "15 bits",IDC_15,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    123,21,68,10
+    CONTROL         "16 bits",IDC_16,"Button",BS_AUTORADIOBUTTON,123,33,37,
+                    10
+    CONTROL         "24 bits",IDC_24,"Button",BS_AUTORADIOBUTTON,123,46,37,
+                    10
+    CONTROL         "32 bits",IDC_32,"Button",BS_AUTORADIOBUTTON,123,59,37,
+                    10
+    CONTROL         "Run Fullscreen",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,97,74,10
+    CONTROL         "Use Fog",IDC_FOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    7,109,59,10
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 169, 213
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,115,196,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONSOLEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 286
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_PERFORMANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_VIDEOSETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New Game",                   ID_FILE_NEWGAME
+        MENUITEM "&Test performance",           IDM_TESTSPEED
+        MENUITEM SEPARATOR
+        MENUITEM "&Quit",                       ID_FILE_QUIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Full Screen",                ID_VIEW_FULLSCREEN
+        POPUP "&Resolution"
+        BEGIN
+            MENUITEM "640 x 480",                   ID_VIEW_RESOLUTION_640X480
+            , CHECKED
+            MENUITEM "800 x 600",                   ID_VIEW_RESOLUTION_800X600
+
+            MENUITEM "1024 x 768",                  ID_VIEW_RESOLUTION_1024X768
+
+            MENUITEM "1280 x 1024",                 ID_VIEW_RESOLUTION_1280X1024
+
+        END
+        MENUITEM "&Fog",                        ID_VIEW_FOG
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEMPLATE1
+//
+
+IDR_SPLASHSCREEN        TEMPLATE1 DISCARDABLE   "new_splash.jpg"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

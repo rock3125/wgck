@@ -1,0 +1,31 @@
+-- LOG --
+Viewer v1.0
+Please wait, initialising system...
+Enumerating pixel formats
+Selected pixel format 4
+setting up OpenGL
+Use cursor keys, A, Z, and the mouse to view
+Use ALT+C to show/hide console window
+ALT+Enter to switch full screen & back
+Loading object
+File: data\station.bin
+object:
+        materials   : 19
+        meshes      : 197
+        object size : 4.19 MB
+        materials   : 357.96 KB
+
+Command line options:
+
+the following switches must follow the filename parameter
+-640x480          res switch
+-800x600          res switch
+-1024x768         res switch
+-1280x1024        res switch
+-fullscreen       start in fullscreen mode
+-15				 15 bit depth buffer
+-16				 16 bit depth buffer
+-24				 24 bit depth buffer
+-32				 32 bit depth buffer
+-log=logfile.txt  output info to logfile
+setting up OpenGL

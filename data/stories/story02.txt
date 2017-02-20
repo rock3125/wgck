@@ -1,0 +1,3 @@
+title=Omaha Beach
+screen=story2-1.jpg
+map=story02.def
